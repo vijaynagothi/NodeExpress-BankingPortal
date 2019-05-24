@@ -16,6 +16,6 @@ app.get('/', (req, res) => {
 })
 
 
-app.listen(port, () => {
+app.listen(3000, () => {
     console.log(`Running on port ${port} ...`);
 })
